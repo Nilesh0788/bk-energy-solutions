@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -12,20 +14,6 @@
   --gray-200: #e5e7eb;
   --gray-600: #4b5563;
   --gray-800: #1f2937;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-navy: var(--navy);
-  --color-navy-light: var(--navy-light);
-  --color-orange: var(--orange);
-  --color-orange-light: var(--orange-light);
-  --color-gray-50: var(--gray-50);
-  --color-gray-100: var(--gray-100);
-  --color-gray-200: var(--gray-200);
-  --color-gray-600: var(--gray-600);
-  --color-gray-800: var(--gray-800);
 }
 
 * {
