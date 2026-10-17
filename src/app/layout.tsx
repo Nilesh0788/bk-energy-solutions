@@ -16,6 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.bkenergysolutions.com'),
   title: "BK Energy Solutions | Authorised Helvar LED Driver Distributor | North India",
   description: "Authorised Helvar LED Driver distributor serving North India. Premium lighting components, DALI-2 drivers, constant current/voltage LED drivers. 15+ years technical expertise.",
   keywords: ["Helvar LED Drivers", "Helvar authorised distributor", "Helvar distributor North India", "LED drivers India", "DALI-2 LED drivers", "Constant current LED drivers", "Constant voltage LED drivers", "Lighting electronic components", "LED lighting components supplier", "BK Energy Solutions"],
