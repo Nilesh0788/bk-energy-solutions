@@ -1,0 +1,17 @@
+<svg width="200" height="120" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Oval background with blue-green gradient, tilted upwards to the right -->
+  <ellipse cx="100" cy="60" rx="90" ry="55" transform="rotate(10 100 60)" fill="url(#logoGradient)" />
+  
+  <!-- BK letters in white, bold, sans-serif -->
+  <text x="100" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="52" fill="white" transform="rotate(10 100 60)">
+    BK
+  </text>
+  
+  <!-- Gradient definition: Medium blue to vibrant green -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" /> <!-- Medium blue -->
+      <stop offset="100%" stop-color="#00C853" /> <!-- Vibrant green -->
+    </linearGradient>
+  </defs>
+</svg>
