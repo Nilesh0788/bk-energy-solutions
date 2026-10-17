@@ -8,12 +8,6 @@ const nextConfig = {
       },
     ],
   },
-  // Performance optimizations
-  compress: true,
-  // Enable experimental features
-  experimental: {
-    optimizeCss: true,
-  },
 };
 
 export default nextConfig;
